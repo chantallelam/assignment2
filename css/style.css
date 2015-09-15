@@ -1,0 +1,205 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     font-size: 12px;
+     line-height: 1.4;
+     background: url(../images/header_bg.jpg) no-repeat center top;
+     background-size: cover;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+#container {
+  width: 100%;
+  margin: auto;
+  height: 500px;
+}
+
+section{
+    height: 520px;
+    padding-top: 30px;
+
+}
+.benefit{
+    height: 600px;
+    margin: 30px -10px 0px -10px;
+    padding: 80px 40px;
+    background-color:#f0efef;
+    
+}
+.Quote{
+    background-image: url(../images/testimonial_bg.jpg);
+    height: 400px;
+    text-align: center;
+    padding: 120px 300px;
+    margin: 0px -10px;
+}
+
+.signup{
+    background-color: #f9e42e;
+    height: 125px;
+    margin:-10px -10px;
+    padding-top: 8px;
+    
+}
+
+footer {
+    background-color: black;
+    height: 400px;
+    margin: -115px -10px;
+    text-align: center;
+    
+}
+img{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+h1{
+    font-family: 'Open sans', sans-serif;
+    weight: 800;
+    font-size: 48px;
+    color: white;
+    margin-left:30px;
+}
+
+h2{
+    font-family: 'Open sans', sans-serif;
+    font-weight: semi-bold;
+    text-align:center;
+    font-size: 48px;
+    color:white;
+}
+h3{
+    font-family: 'Open sans', sans-serif;
+    font-weight: extra-bold;
+    font-size: 28px;
+    text-align: center;
+    padding: 5px;
+    background-color: #f9e42e;
+    width:200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+
+h4{
+    font-family: 'Open sans', sans-serif;
+    font-weight: semi-bold;
+    font-size: 40px;
+    color: #033048;
+}
+
+p{
+    font-family: 'Open sans', sans-serif;
+    font-weight: light;
+    color: #033048;
+    font-size: 26px;
+    
+}
+
+li{
+    font-family: 'Open sans', sans-serif;
+    font-weight: light;
+    color: #033048;
+    font-size: 26px;
+}
+
+
+q {
+    font-family: 'Open sans', sans-serif;
+    font-weight: 300;
+    font-size: 26px;
+    font-style: italic;
+    color: white; 
+}
+
+h5{
+    font-family: 'Open sans', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    background-color: #033048;
+    width: 200px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h6{
+    font-family: 'Open sans', sans-serif;
+    weight: 800;
+    font-size: 48px;
+    color: #f9e42e;
+    padding-top: 20px;
+
+}
+.finetext{
+    font-family: 'Open sans', sans-serif;
+    weight: 800;
+    font-size: 18px;
+    color: white;
+}
+
+.quotecredit{
+    font-family: 'Open sans', sans-serif;
+    weight: 400;
+    font-size: 26px;
+    color: white;
+
+}
